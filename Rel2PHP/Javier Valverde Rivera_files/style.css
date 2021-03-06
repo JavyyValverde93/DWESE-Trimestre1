@@ -1,0 +1,30 @@
+html {
+    border: 8px solid white;
+    min-height: 100%;
+    background-color: rgb(246, 215, 209);
+   }
+#DatosPersonales {
+    background-color: #BDBCBB;
+    border: 2;
+    border-color: black;
+}
+#FormaAcceso {
+    background-color: #FFBA76;
+    border: 2;
+    border-color: black;
+}
+#DocumentosAdjuntados {
+    background-color: #FF8888;
+    border: 2;
+    border-color: black;
+}
+#OtrosCampos {
+    background-color: #dbea6a;
+    border: 2;
+    border-color: black;
+}
+legend{
+    background-color: #fff;
+    border-color: black;
+    border-width: 1px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title> </title>
+</head>
+<body style="background:cadetblue;">
+    <H3 class="text-center mt-3"> </H3>
+    <div class="container mt-3">
+        <form name="ej3" action="actionEj3.php" method="POST" enctype="multipart/form-data">
+            Indique su sexo y aficiones:
+            <p>
+            <b>Sexo: </b>&nbsp;<input type="radio" value="Hombre" name="sexo">Hombre &nbsp;<input type="radio" value="Mujer" name="sexo">Mujer<p></p>
+            <b>Aficiones: </b>&nbsp;
+            <input type="checkbox" value="Cine" name="aficiones[]">Cine &nbsp;
+            <input type="checkbox" value="Literatura" name="aficiones[]">Literatura &nbsp;
+            <input type="checkbox" value="Música" name="aficiones[]">Música
+            <p></p>
+            <button type="submit">Enviar</button>
+            <input type="reset" value="Borrar">
+        </form>
+    </div>
+</body>
+</html>
